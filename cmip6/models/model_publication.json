@@ -1,4 +1,53 @@
 {
+    "norcpm1": {
+        "toplevel": {
+            "publish": "off"
+        }, 
+        "aerosol": {
+            "publish": "off"
+        }, 
+        "atmos": {
+            "publish": "off"
+        }, 
+        "atmoschem": {
+            "publish": "off"
+        }, 
+        "land": {
+            "publish": "off"
+        }, 
+        "ocean": {
+            "publish": "off"
+        }, 
+        "ocnbgchem": {
+            "publish": "off"
+        }, 
+        "seaice": {
+            "publish": "off"
+        }
+    }, 
+    "noresm1-f": {
+        "toplevel": {
+            "publish": "off"
+        }, 
+        "atmos": {
+            "publish": "off"
+        }, 
+        "land": {
+            "publish": "off"
+        }, 
+        "landice": {
+            "publish": "off"
+        }, 
+        "ocean": {
+            "publish": "off"
+        }, 
+        "ocnbgchem": {
+            "publish": "off"
+        }, 
+        "seaice": {
+            "publish": "off"
+        }
+    }, 
     "noresm2-hh": {
         "toplevel": {
             "publish": "off"
