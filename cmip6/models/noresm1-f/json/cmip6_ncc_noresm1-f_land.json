@@ -1,8 +1,279 @@
 {
     "mipEra": "cmip6", 
     "institute": "ncc", 
-    "seedingSource": "Spreadsheet", 
+    "seedingSource": "cmip5:noresm1-me", 
     "sourceID": "noresm1-f", 
     "topic": "land", 
-    "content": {}
+    "content": {
+        "cmip6.land.carbon_cycle.permafrost_carbon.emitted_greenhouse_gases": {
+            "values": [
+                "Not applicable"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.soil.carbon_pools": {
+            "values": [
+                "Litter pools: litter-labile, litter-cellulose, litter-lignin, wood-litter. Soil organic matter pools: fast, medium slow, very slow."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.allocation.allocation_bins": {
+            "values": [
+                "leaves + stems + roots"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.allocation.allocation_fractions": {
+            "values": [
+                "explicitly calculated"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.carbon_pools": {
+            "values": [
+                "Plant pools: current storage, previous storage, leaf live stem, live coarse rot, fine root, dead stem, dead coarse root."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.number_of_carbon_pools": {
+            "values": [
+                8
+            ]
+        }, 
+        "cmip6.land.energy_balance.number_of_surface_temperatures": {
+            "values": [
+                4
+            ]
+        }, 
+        "cmip6.land.energy_balance.overview": {
+            "values": [
+                "Type Of Evaporation Formulation includes transpiration, soil evaporation, and canopy evaporation."
+            ]
+        }, 
+        "cmip6.land.energy_balance.processes": {
+            "values": [
+                "transpiration"
+            ]
+        }, 
+        "cmip6.land.key_properties.land_cover": {
+            "values": [
+                "Other: ice", 
+                "bare soil", 
+                "lake", 
+                "urban", 
+                "vegetated"
+            ]
+        }, 
+        "cmip6.land.key_properties.name": {
+            "values": [
+                "Community Land Model 4"
+            ]
+        }, 
+        "cmip6.land.lakes.coupling_with_rivers": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.lakes.method.albedo": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.lakes.method.dynamic_lake_extent": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.lakes.method.endorheic_basins": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.lakes.method.ice_treatment": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.lakes.quantities_exchanged_with_rivers": {
+            "values": [
+                "heat", 
+                "water"
+            ]
+        }, 
+        "cmip6.land.river_routing.basin_flow_direction_map": {
+            "values": [
+                "present day"
+            ]
+        }, 
+        "cmip6.land.river_routing.coupled_to_atmosphere": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.river_routing.oceanic_discharge.discharge_type": {
+            "values": [
+                "direct (large rivers)"
+            ]
+        }, 
+        "cmip6.land.river_routing.oceanic_discharge.quantities_transported": {
+            "values": [
+                "heat", 
+                "water"
+            ]
+        }, 
+        "cmip6.land.snow.density": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.heat_content": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.liquid_water_content": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.number_of_snow_layers": {
+            "values": [
+                5
+            ]
+        }, 
+        "cmip6.land.snow.processes": {
+            "values": [
+                "Other: snow refreezing", 
+                "snow interception", 
+                "snow melting"
+            ]
+        }, 
+        "cmip6.land.snow.snow_albedo.functions": {
+            "values": [
+                "aerosol deposition", 
+                "snow age", 
+                "snow grain type", 
+                "vegetation type"
+            ]
+        }, 
+        "cmip6.land.snow.snow_albedo.type": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.snow_cover_fractions": {
+            "values": [
+                "ground snow fraction", 
+                "vegetation snow fraction"
+            ]
+        }, 
+        "cmip6.land.snow.temperature": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.water_equivalent": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.soil.heat_treatment.processes": {
+            "values": [
+                "soil moisture freeze-thaw"
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.freezing.ice_storage_method": {
+            "values": [
+                "Standard"
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.freezing.number_of_ground_ice_layers": {
+            "values": [
+                15
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.number_of_ground_water_layers": {
+            "values": [
+                15
+            ]
+        }, 
+        "cmip6.land.soil.snow_free_albedo.direct_diffuse": {
+            "values": [
+                "distinction between direct and diffuse albedo"
+            ]
+        }, 
+        "cmip6.land.soil.snow_free_albedo.functions": {
+            "values": [
+                "soil humidity", 
+                "vegetation state", 
+                "vegetation type"
+            ]
+        }, 
+        "cmip6.land.soil.snow_free_albedo.number_of_wavelength_bands": {
+            "values": [
+                1
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.albedo": {
+            "values": [
+                "Prognosed"
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.structure": {
+            "values": [
+                "Input files"
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.texture": {
+            "values": [
+                "Input file"
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.water_table": {
+            "values": [
+                "Prognosed"
+            ]
+        }, 
+        "cmip6.land.vegetation.biomass": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.vegetation.interception": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.vegetation.leaf_area_index": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.vegetation.phenology": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.vegetation.stomatal_resistance": {
+            "values": [
+                "CO2", 
+                "light", 
+                "temperature", 
+                "water availability"
+            ]
+        }, 
+        "cmip6.land.vegetation.vegetation_representation": {
+            "values": [
+                "vegetation types"
+            ]
+        }, 
+        "cmip6.land.vegetation.vegetation_time_variation": {
+            "values": [
+                "prescribed (varying from files)"
+            ]
+        }, 
+        "cmip6.land.vegetation.vegetation_types": {
+            "values": [
+                "C3 grass", 
+                "C4 grass", 
+                "broadleaf tree", 
+                "needleleaf tree"
+            ]
+        }
+    }
 }

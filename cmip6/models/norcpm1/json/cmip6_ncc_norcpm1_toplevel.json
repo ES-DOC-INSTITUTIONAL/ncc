@@ -1,8 +1,19 @@
 {
     "mipEra": "cmip6", 
     "institute": "ncc", 
-    "seedingSource": "Spreadsheet", 
+    "seedingSource": "cmip5:noresm1-me", 
     "sourceID": "norcpm1", 
     "topic": "toplevel", 
-    "content": {}
+    "content": {
+        "cmip6.toplevel.key_properties.name": {
+            "values": [
+                "Norwegian Earth System Model 1 - medium resolution with capability to be fully emission driven"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.overview": {
+            "values": [
+                "Physically, the NorESM1-ME and NorESM1-M are very similar. The NorESM1-M simulates mainly physical components, whereas the NorESM1-ME is the official version where it includes all carbon cycle components in the CMIP5 runs (both prescribed atmospheric CO2 and emissions simulations) it performed.\r\n\r\nThere are some minor differences such as initial condition and small perturbation in cloud parameterization, but the main physical mean state and climate variability should be largely consistent and comparable."
+            ]
+        }
+    }
 }

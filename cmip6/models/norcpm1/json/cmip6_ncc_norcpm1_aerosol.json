@@ -1,8 +1,91 @@
 {
     "mipEra": "cmip6", 
     "institute": "ncc", 
-    "seedingSource": "Spreadsheet", 
+    "seedingSource": "cmip5:noresm1-me", 
     "sourceID": "norcpm1", 
     "topic": "aerosol", 
-    "content": {}
+    "content": {
+        "cmip6.aerosol.concentrations.overview": {
+            "values": [
+                "Description: Emissions for the sulphur cycle include emissions of sulphate aerosol precursors: sulphur dioxide and dimethylsulphide in addition to SO4 formed close to the emissions source( 2%).  For sulphur dioxide and SO4, anthropogenic and biomass burning emissions are taken from Lamarque et al. (2009). Natural emissions from volcanoes are provided as a 3D field. (Dentener et al., 2006) DMS emissions have no interannual variation, and  are taken from the day by day varying dataset from the year 2000 in Dentener et al. (2006).  All sulphur-cycle emissions are expressed in term of mass of sulphur within the model. For black-carbon and organic-carbon aerosols from fossil-fuel and biofuel emissions, emissions are provided at the two lowest model layers, following the classification in Dentener et al. 2006 together with the source classification in Lamarque et al (2009). For biomass-burning aerosol, emissions are provided from Lamarque et al. (2009) and distributed vertically as in Dentener et al. (2006). The climatology of monthly-averaged mass-mixing ratios of secondary organic aerosol from terpene emissions are taken from Dentener et al. (2006), but scaled to the total numbers in Hoyle et al. (2007). Primary organic matter from the ocean is parameterised by using the fine mode sea-salt emissions in Dentener et al. (2006) scaled to the number given in Spracklen et al. (2008). Emissions of organic carbon aerosols are expressed in term of mass of total organic matter.\r\nEmissions from mineral dust are based on the year 2000 calculated in Dentener et al. (2006). Sea-salt aerosol emissions are computed interactively depending on modelled near-surface wind speeds and sea-surface temperatures (Struthers et al., 2011). All emission fields except DMS and dust are provided as monthly means, which are read in at the beginning of each moth. DMS and mineral dust are given as daily values, although with no interannual variation"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.prescribed_lower_boundary": {
+            "values": [
+                "0"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.prescribed_upper_boundary": {
+            "values": [
+                "1"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.basic_approximations": {
+            "values": [
+                "A modal-process-bin approximation"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.family_approach": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.name": {
+            "values": [
+                "NorESM-aerosol"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.number_of_tracers": {
+            "values": [
+                20
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.prognostic_variables_form": {
+            "values": [
+                "3D mass/volume ratio for aerosols"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.scheme_scope": {
+            "values": [
+                "troposphere"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.method": {
+            "values": [
+                "Uses atmospheric chemistry time stepping"
+            ]
+        }, 
+        "cmip6.aerosol.model.coupling": {
+            "values": [
+                "Clouds", 
+                "Other: landsurface", 
+                "Radiation"
+            ]
+        }, 
+        "cmip6.aerosol.model.gas_phase_precursors": {
+            "values": [
+                "DMS", 
+                "SO2"
+            ]
+        }, 
+        "cmip6.aerosol.model.overview": {
+            "values": [
+                "Background (primary) aerosol size modes are assumed to be log-normally distributed and have constant median radii and standard deviations at the point of emission. The size distributions for modified aerosol modes, after growth, are not restricted to log-normality. Although the modified aerosol size distributions are not calculated from \"first principles\" in the model itself, as in a sectional model, modal size parameters (for droplet activation and subsequent indirect effects) and aerosol optical properties (for the direct effect) are found from look-up tables (by interpolation in up to 5 dimensions) of values which have been computed with a separate code which takes into account growth by condensation (including hygroscopic growth), coagulation and wet-phase chemistry/cloud processing. These tables have been made for a large array of different input values for the amount of condensation, coagulation etc (relative to a background aerosol) for the various constituents."
+            ]
+        }, 
+        "cmip6.aerosol.model.processes": {
+            "values": [
+                "Advection (horizontal)", 
+                "Advection (vertical)", 
+                "Coagulation", 
+                "Condensation", 
+                "Dry deposition", 
+                "Oxidation (gas phase)", 
+                "Oxidation (in cloud)", 
+                "Sedimentation", 
+                "Wet deposition (impaction scavenging)", 
+                "Wet deposition (nucleation scavenging)"
+            ]
+        }
+    }
 }

@@ -1,8 +1,125 @@
 {
     "mipEra": "cmip6", 
     "institute": "ncc", 
-    "seedingSource": "Spreadsheet", 
+    "seedingSource": "cmip5:noresm1-me", 
     "sourceID": "norcpm1", 
     "topic": "atmoschem", 
-    "content": {}
+    "content": {
+        "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.prescribed_climatology_emitted_species": {
+            "values": [
+                "Volcanic SO2"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.atmospheric_emissions.sources": {
+            "values": [
+                "Biomass burning", 
+                "Other: volcanoes"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.concentrations.prescribed_upper_boundary": {
+            "values": [
+                "Nome"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.overview": {
+            "values": [
+                "Anthropogenic and biomasss burning emissions from Lamarque et al. 2009. Volcanic eruptions and vertical distribution as in Dentener et al. 2006 and Seland et al. 2008"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.surface_emissions.prescribed_climatology_emitted_species": {
+            "values": [
+                "DMS"
+            ]
+        }, 
+        "cmip6.atmoschem.emissions_concentrations.surface_emissions.sources": {
+            "values": [
+                "Sea surface"
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.number_of_termolecular_reactions": {
+            "values": [
+                2
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.species": {
+            "values": [
+                "Other: sox"
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.wet_deposition": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.gas_phase_chemistry.wet_oxidation": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.basic_approximations": {
+            "values": [
+                "Sulphate pre-cursors and h2o2 replenishment"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.chemistry_scheme_scope": {
+            "values": [
+                "troposphere"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.coupling_with_chemical_reactivity": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.name": {
+            "values": [
+                "NorESM Atmospheric Chemistry"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.number_of_tracers": {
+            "values": [
+                3
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.method": {
+            "values": [
+                "Operator splitting"
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_advection_timestep": {
+            "values": [
+                1800
+            ]
+        }, 
+        "cmip6.atmoschem.key_properties.timestep_framework.split_operator_physical_timestep": {
+            "values": [
+                1800
+            ]
+        }, 
+        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.aerosol_species": {
+            "values": [
+                "Sulphate"
+            ]
+        }, 
+        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.coagulation": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.gas_phase_species": {
+            "values": [
+                "SO2"
+            ]
+        }, 
+        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.number_of_steady_state_species": {
+            "values": [
+                1
+            ]
+        }, 
+        "cmip6.atmoschem.tropospheric_heterogeneous_chemistry.overview": {
+            "values": [
+                "Aqueous phase reaction of SO2 to sulphate\r\nNo reaction in ice.\r\nO3 prescribed monthly mean concentrations, H2O2 transported but relaxed heavily towards monthly mean concentrations so H2O2"
+            ]
+        }
+    }
 }

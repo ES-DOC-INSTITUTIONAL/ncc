@@ -1,8 +1,290 @@
 {
     "mipEra": "cmip6", 
     "institute": "ncc", 
-    "seedingSource": "Spreadsheet", 
+    "seedingSource": "cmip5:noresm1-me", 
     "sourceID": "noresm2-lm", 
     "topic": "atmos", 
-    "content": {}
+    "content": {
+        "cmip6.atmos.cloud_scheme.overview": {
+            "values": [
+                "The treatment of cloud vertical overlap follows Collins (2001), i.e. as in CAM4. Treatment of cloud micro- and macro-physics is in general as in CAM4, except for some tuning parameters and the special treatment of aerosol-cloud interactions which are specific to CAM4-Oslo. This special treatment (Kirkev\u00e5g et al., 2013) is based on but not identical to that of Hoose et al. (2010)."
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.processes": {
+            "values": [
+                "Other: cloudoverlap is a combination of maximally overlapped regions separated by random-overlap boundaries."
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.uses_separate_treatment": {
+            "values": [
+                "Yes"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.momentum.scheme_characteristics": {
+            "values": [
+                "staggered grid"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.momentum.scheme_name": {
+            "values": [
+                "Other: van leer"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.momentum.scheme_staggering_type": {
+            "values": [
+                "Arakawa C-grid"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.conserved_quantities": {
+            "values": [
+                "Other: mass mixing"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.scheme_characteristics": {
+            "values": [
+                "finite volume", 
+                "mass-conserving", 
+                "semi-Lagrangian"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.diffusion_horizontal.scheme_name": {
+            "values": [
+                "Not available"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.overview": {
+            "values": [
+                "The atmospheric dynamical core of NorESM / CAM4-Oslo is the same as in CAM4 (Lin, 2004; Gent et al., 2011)."
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.prognostic_variables": {
+            "values": [
+                "potential temperature", 
+                "surface pressure", 
+                "water ice", 
+                "water liquid", 
+                "water vapour", 
+                "wind components"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.top_boundary.top_boundary_condition": {
+            "values": [
+                "radiation boundary condition"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.top_boundary.top_heat": {
+            "values": [
+                "Sponge"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.top_boundary.top_wind": {
+            "values": [
+                "Sponge"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.orographic_gravity_waves.calculation_method": {
+            "values": [
+                "non-linear calculation"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.orographic_gravity_waves.source_mechanisms": {
+            "values": [
+                "statistical sub-grid scale variance"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.overview": {
+            "values": [
+                "SpongeLayer is implemented as diffusion near the model top as in CCSM4"
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.subgrid_scale_orography": {
+            "values": [
+                "effect on drag"
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.horizontal_pole": {
+            "values": [
+                "filter"
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.scheme_method": {
+            "values": [
+                "finite volumes"
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.scheme_type": {
+            "values": [
+                "fixed grid"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.basic_approximations": {
+            "values": [
+                "primitive equations"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.model_family": {
+            "values": [
+                "AGCM"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.name": {
+            "values": [
+                "NorESM Atmosphere / CAM4-Oslo"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.orography.type": {
+            "values": [
+                "Other: present day"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.timestepping.timestep_dynamics": {
+            "values": [
+                1800
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_cloud_microphysics.processes": {
+            "values": [
+                "cloud droplets", 
+                "cloud ice", 
+                "effect of graupel", 
+                "effect of raindrops", 
+                "effect of snow"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_cloud_microphysics.scheme_name": {
+            "values": [
+                "Rasch-Kristjansson"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_precipitation.hydrometeors": {
+            "values": [
+                "liquid rain", 
+                "snow"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_precipitation.scheme_name": {
+            "values": [
+                "Rasch-Kristjansson"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.insolation_ozone.solar_ozone_impact": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.orbital_parameters.computation_method": {
+            "values": [
+                "Berger 1978"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.orbital_parameters.fixed_reference_date": {
+            "values": [
+                1990
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.orbital_parameters.type": {
+            "values": [
+                "fixed"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.solar_constant.transient_characteristics": {
+            "values": [
+                "Lean et al. (2005)"
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.solar_constant.type": {
+            "values": [
+                "transient"
+            ]
+        }, 
+        "cmip6.atmos.radiation.aerosols": {
+            "values": [
+                "Other: black carbon / soot", 
+                "dust", 
+                "organic", 
+                "sea salt", 
+                "sulphate"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.spectral_integration": {
+            "values": [
+                "wide-band model"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.spectral_intervals": {
+            "values": [
+                7
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.transport_calculation": {
+            "values": [
+                "layer interaction"
+            ]
+        }, 
+        "cmip6.atmos.radiation.overview": {
+            "values": [
+                "Optical properties and treatment of radiative effects of ice clouds are as in  CAM4 (Neale et al, 2010). Also for liquid clouds the intrinsic optical properties are as in CAM4, but cloud droplet number concentrations and effective cloud droplet radii (for the radius indirect effect) and liquid water paths (for the life-time indirect effect) are calculated according to (Kirkev\u00e5g et al., 2013, see more references under the general description of aerosols in CAM4-Oslo)."
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.spectral_integration": {
+            "values": [
+                "wide-band model"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.spectral_intervals": {
+            "values": [
+                19
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.counter_gradient": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.processes": {
+            "values": [
+                "convective momentum transport", 
+                "detrainment", 
+                "entrainment", 
+                "penetrative convection", 
+                "updrafts", 
+                "vertical momentum transport"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_method": {
+            "values": [
+                "CAPE"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_name": {
+            "values": [
+                "Zhang-McFarlane"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_type": {
+            "values": [
+                "mass-flux"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.overview": {
+            "values": [
+                "The bounary-layer turbulence scheme is \"Holtslag-Boville\" (Holtslag and Boville, 1993; Boville and Bretherton, 2003; Neale et al, 2010). The Zhang-McFarlane (Zhang and McFarlane, 1995) deep convection scheme has been changed by including the effects of deep convection in the momentum equation (Richter and Rasch, 2008) and using a dilute, rather than an undilute, approximation in the plume calculation (Neale et al., 2008), see also Neale et al. (2010) and Gent et al. (2011). The shallow convection scheme is described in Neale et al. (2010). The parameterization of non-convective cloud processes is described in Rasch and Kristjansson (1998) and Zhang et al. (2003). The aerosol-cloud interactions are described in Kirkev\u00e5g et al. (2012, in prep.), however, see the aerosol description."
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.shallow_convection.scheme_method": {
+            "values": [
+                "separate diagnosis"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.shallow_convection.scheme_name": {
+            "values": [
+                "Hack"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.shallow_convection.scheme_type": {
+            "values": [
+                "mass-flux"
+            ]
+        }
+    }
 }
