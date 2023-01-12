@@ -79,31 +79,31 @@
     }, 
     "noresm2-lm": {
         "toplevel": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "aerosol": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "atmos": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "atmoschem": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "land": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "landice": {
             "publish": "off"
         }, 
         "ocean": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "ocnbgchem": {
-            "publish": "off"
+            "publish": "on"
         }, 
         "seaice": {
-            "publish": "off"
+            "publish": "on"
         }
     }, 
     "noresm2-lme": {
